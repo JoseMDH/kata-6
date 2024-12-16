@@ -13,7 +13,6 @@ public class Main {
     public static final String TASK_DAYS_WITH_RESTRICTION = "/taskdays-with-restriction";
     public static final String TASK_DAYS_WITH_AVAILABILITY = "/taskdays-with-availability";
 
-
     public static void main(String[] args) {
         CommandFactory factory = new CommandFactory();
         factory.register(TASK_DAYS_WITH_RESTRICTION, CalculateTaskDaysWithRestrictionCommand::new)
